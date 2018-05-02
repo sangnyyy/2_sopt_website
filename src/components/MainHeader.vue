@@ -103,10 +103,10 @@ main a {
 }
 h3 {
   display: inline-block;
-
 }
 main a:hover {
   color: gray;
+  font-size: 300%;
 }
 
 
