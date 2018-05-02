@@ -1,6 +1,6 @@
 <template>
     <main>
-        <img src="../../img/main_image.png">
+        
         <div>
             <transition appear appear-active-class="animated rotateIn">
                 <h1>S O P T</h1>
@@ -8,40 +8,41 @@
             <transition appear appear-active-class="animated bounceInLeft">
                 <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
             </transition>
-                <a href="#">
+                <router-link to="/notice">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             Notice
                         </h3>
                     </transition>
-                </a>
-                <a href="#">
+                </router-link>
+                <router-link to="/about">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             About
                         </h3>
                     </transition>
-                </a>
-                <a href="#">
+                </router-link>
+                <router-link to="/story">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             Story
                         </h3>
                     </transition>
-                </a>
-                <a href="#">
+                </router-link>
+                <router-link to="/faq">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             F.A.Q
                         </h3>
                     </transition>
-                </a><a href="#">
+                </router-link>
+                <router-link to="/recruit">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             Recruit
                         </h3>
                     </transition>
-                </a>
+                </router-link>
             </div>
         
     </main>
@@ -60,20 +61,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 main {
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-}
-main > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
 main div{
     position: relative;
@@ -107,7 +100,9 @@ h3 {
 main a:hover {
   color: gray;
   font-size: 300%;
+  transition-duration: 0.5s;
 }
+
 
 
 </style>
