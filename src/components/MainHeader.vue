@@ -6,34 +6,51 @@
         </transition>
         <br/>
         
-        <transition>
+        <transition appear appear-active-class="animated shake">
             <h2>SHOUT OUR PASSION TOGETHER</h2>    
         </transition>
         <br>
+            <a href="#">
+                <transition appear appear-active-class="animated bounceInUp">
+                    <h3>
+                        About
+                    </h3>
+                </transition>
+            </a>
+            <a href="#">
+                <transition appear appear-active-class="animated bounceInUp">
+                    <h3>
+                        Story
+                    </h3>
+                </transition>
+            </a>
+            <a href="#">
+                <transition appear appear-active-class="animated bounceInUp">
+                    <h3>
+                        F.A.Q
+                    </h3>
+                </transition>
+            </a><a href="#">
+                <transition appear appear-active-class="animated bounceInUp">
+                    <h3>
+                        Recruit
+                    </h3>
+                </transition>
+            </a>
         
-        
-        <transition appear appear-active-class="animated bounceInDown">
-            <a href="#">About</a>
-        </transition>
-        <transition appear appear-active-class="animated bounceInDown">
-            <a href="#">Story</a>
-        </transition>
-        <transition appear appear-active-class="animated bounceInDown">
-            <a href="#">F.A.Q</a>
-        </transition>
-        <transition appear appear-active-class="animated bounceInDown">
-            <a href="#">Recruit</a>
-        </transition>
     </main>
 </template>
 
 <script>
 export default {
-    data : function(){
-        return {
-            show : true
-        }
-    }
+  data: function() {
+    return {
+      show: true
+    };
+  },
+  methods: {
+    mouseOver: function() {}
+  }
 };
 </script>
 
@@ -52,27 +69,30 @@ main > img {
 }
 main h1 {
   margin-top: 10%;
-  color : white;
+  color: white;
   position: relative;
-  top : 20%;
+  top: 20%;
   /* transform: translateY(-50%); */
   font-size: 200px;
   display: inline-block;
-  
 }
-main h2{
-    
-    
-    color:white;
-    font-size:50px;
-    
+main h2 {
+  color: white;
+  font-size: 60px;
 }
-main a{
-    top:15%;
-    position: relative;
-    color:white;
-    text-decoration: none;
-    font-size:40px;
-    margin-right: 3%;
+main a {
+  top: 15%;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  margin-right: 3%;
+  display: inline;
+}
+h3 {
+  display: inline-block;
+}
+main a:hover {
+  color: gray;
 }
 </style>
