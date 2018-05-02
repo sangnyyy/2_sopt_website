@@ -3,11 +3,18 @@
         <img src="../../img/main_image.png">
         <div>
             <transition appear appear-active-class="animated rotateIn">
-                <h1>SOPT</h1>
+                <h1>S O P T</h1>
             </transition>
             <transition appear appear-active-class="animated bounceInLeft">
                 <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
             </transition>
+                <a href="#">
+                    <transition appear appear-active-class="animated bounceInUp">
+                        <h3>
+                            Notice
+                        </h3>
+                    </transition>
+                </a>
                 <a href="#">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
@@ -90,7 +97,7 @@ main a {
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
   margin-right: 3%;
   display: inline;
 }
@@ -99,6 +106,7 @@ h3 {
 }
 main a:hover {
   color: gray;
+  font-size: 300%;
 }
 
 
