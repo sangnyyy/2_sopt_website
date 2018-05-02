@@ -2,10 +2,10 @@
     <main>
         <img src="../../img/main_image.png">
         <div>
-            <transition appear appear-active-class="animated shake">
+            <transition appear appear-active-class="animated rotateIn">
                 <h1>SOPT</h1>
             </transition>
-            <transition appear appear-active-class="animated shake">
+            <transition appear appear-active-class="animated bounceInLeft">
                 <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
             </transition>
                 <a href="#">
