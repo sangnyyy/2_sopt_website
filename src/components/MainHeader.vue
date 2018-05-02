@@ -5,6 +5,13 @@
             <h1>SOPT</h1>
         </transition>
         <br/>
+        
+        <transition>
+            <h2>SHOUT OUR PASSION TOGETHER</h2>    
+        </transition>
+        <br>
+        
+        
         <transition appear appear-active-class="animated bounceInDown">
             <a href="#">About</a>
         </transition>
@@ -43,14 +50,22 @@ main > img {
   height: 100%;
   z-index: -1;
 }
-main > h1 {
+main h1 {
+  margin-top: 10%;
   color : white;
   position: relative;
-  top : 15%;
+  top : 20%;
   /* transform: translateY(-50%); */
   font-size: 200px;
   display: inline-block;
-  z-index: 2;
+  
+}
+main h2{
+    
+    
+    color:white;
+    font-size:50px;
+    
 }
 main a{
     top:15%;
