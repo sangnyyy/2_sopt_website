@@ -1,12 +1,12 @@
 <template>
   <main>
-    <nav>
+    <header>
       <router-link to="/">
           <h3>
             S O P T
           </h3>
       </router-link>
-    </nav>
+    </header>
   </main>
 </template>
 
@@ -20,6 +20,9 @@ main {
   width: 100%;
   top: 0;
   left: 0;
+}
+header {
+    height: 100px;
 }
 a{
   position: relative;
