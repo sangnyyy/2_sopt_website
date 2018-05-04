@@ -1,12 +1,20 @@
 <template>
   <main>
-    <nav>
+    <header>
       <router-link to="/">
           <h3>
             S O P T
           </h3>
       </router-link>
-    </nav>
+    </header>
+    <article>
+        <section class="title">
+            <h1>Notice</h1>
+        </section>
+        <section class="content">
+
+        </section>
+    </article>
   </main>
 </template>
 
@@ -21,19 +29,29 @@ main {
   top: 0;
   left: 0;
 }
+header {
+    height: 100px;
+}
 a{
   position: relative;
   color: white;
   text-decoration: none;
   font-size: 50px;
   display: inline;
-  left: 80px;
+  left: 3%;
   float: left;
 }
-
+main h1 {
+  color: white;
+  font-size: 110px;
+  display: inline-block;
+  height: 200px;
+}
+header {
+    height: 100px;
+}
 a:hover{
   color: gray;
-  font-size: 400%;
-  transition-duration: 0.5s;
+  
 }
 </style>

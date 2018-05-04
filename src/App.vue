@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="../img/main_image.png">
+    <img id="main_img" src="../img/main_image.png">
     <transition name="router-anim">
       <router-view/>
     </transition>
@@ -29,7 +29,7 @@ export default {
   height: 100%;
   text-align: center;
 }
-#app img{
+#main_img{
   position: absolute;
   top: 0;
   left: 0;
