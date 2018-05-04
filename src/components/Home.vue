@@ -1,6 +1,5 @@
 <template>
     <main>
-        
         <div>
             <transition appear appear-active-class="animated rotateIn">
                 <h1>S O P T</h1>
@@ -8,13 +7,13 @@
             <transition appear appear-active-class="animated bounceInLeft">
                 <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
             </transition>
-                <router-link to="/notice">
+                <!-- <router-link to="/notice">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
                             Notice
                         </h3>
                     </transition>
-                </router-link>
+                </router-link> -->
                 <router-link to="/about">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
@@ -90,7 +89,7 @@ main a {
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 3%;
   display: inline;
 }
