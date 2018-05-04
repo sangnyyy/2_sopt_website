@@ -33,7 +33,6 @@ a{
 
 a:hover{
   color: gray;
-  font-size: 400%;
-  transition-duration: 0.5s;
+  
 }
 </style>
