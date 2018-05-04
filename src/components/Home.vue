@@ -21,10 +21,10 @@
                         </h3>
                     </transition>
                 </router-link>
-                <router-link to="/story">
+                <router-link to="/recruit">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
-                            Story
+                            Recruit
                         </h3>
                     </transition>
                 </router-link>
@@ -35,13 +35,14 @@
                         </h3>
                     </transition>
                 </router-link>
-                <router-link to="/recruit">
+                <a href="http://www.sopt.org/wp/">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
-                            Recruit
+                            Homepage
                         </h3>
                     </transition>
-                </router-link>
+
+                </a>
             </div>
         
     </main>

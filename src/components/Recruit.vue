@@ -42,7 +42,7 @@ export default {};
 #inno_sopt_img{
     float: left;
     position: relative;
-    width : 30%;
+    width : 500px;
     height: auto;
     margin-top: 5%;
     left : 10%;
@@ -101,4 +101,5 @@ a:hover{
   color: gray;
   
 }
+
 </style>
