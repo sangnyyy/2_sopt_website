@@ -116,9 +116,6 @@ main h1 {
 header {
     height: 100px;
 }
-
-
-
 a:hover{
   color: gray;
   
