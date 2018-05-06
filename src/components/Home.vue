@@ -7,13 +7,6 @@
             <transition appear appear-active-class="animated bounceInLeft">
                 <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
             </transition>
-                <!-- <router-link to="/notice">
-                    <transition appear appear-active-class="animated bounceInUp">
-                        <h3>
-                            Notice
-                        </h3>
-                    </transition>
-                </router-link> -->
                 <router-link to="/about">
                     <transition appear appear-active-class="animated bounceInUp">
                         <h3>
@@ -93,6 +86,8 @@ main a {
   font-size: 40px;
   margin-right: 3%;
   display: inline;
+  -webkit-transition : font-size 1s;
+  transition: font-size 1s;
 }
 h3 {
   display: inline-block;
