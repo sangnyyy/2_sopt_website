@@ -1,7 +1,7 @@
 <template>
   <main>
     <header>
-      <router-link to="/">
+      <router-link to="/" id="home">
           <h3>
             S O P T
           </h3>
@@ -15,16 +15,15 @@
             <img id="inno_sopt_img" src="../../img/22nd_symbol.png">
             <div class="explain">
                 <h2>제 22기 신입회원 모집 안내</h2>
-                <br>
                 <h3>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    모집기간 
-                    &nbsp;&nbsp;&nbsp;
-                    2018.2.25 월 - 2018.3.6 화 (지원서 제출기간)
-                </h3>
+                    
+                    모집기간: 
+                    
+                    2018.2.25 월 - 2018.3.6 화
+                </h3><br>
                 <h3>
-                    모집방법 &nbsp;&nbsp;&nbsp;
-                    모집기간 내에 공식 홈페이지 온라인 지원서<br/>
+                    모집방법: 
+                    모집기간 내에 공식 홈페이지 온라인 지원서<br>
                     서류지원 & 서류합격자대상 오프라인 면접
                 </h3>
             </div>
@@ -38,28 +37,27 @@ export default {};
 </script>
 
 <style scoped>
+section.title{
+  height: 15vh;
+}
 
 #inno_sopt_img{
-    float: left;
     position: relative;
     width : 500px;
-    height: auto;
-    margin-top: 5%;
-    left : 10%;
+    margin-top: 5vh;
+ 
 }
 .content{
-    height: auto;
-    max-height: 500px;
+    height: 65vh;
+    margin-top: 3vh;
 }
 .explain{
+    margin-top:10vh;
     float: right;
-    margin-right: 3%;
-    margin-top: 6%;
     display: inline-block;
-    /* border : 1px solid black; */
-    width : 50%;
-    height: auto;
+    width : 48vw;
     color: white;
+    margin-right: 7vw;
 }
 
 .explain h2{
@@ -77,13 +75,13 @@ main {
   left: 0;
 }
 header {
-    height: 100px;
+    height:10vh;
 }
-a{
+#home{
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 5rem;
   display: inline;
   left: 3%;
   float: left;
@@ -94,12 +92,60 @@ main h1 {
   display: inline-block;
   height: 200px;
 }
-header {
-    height: 100px;
-}
+
 a:hover{
   color: gray;
   
 }
 
+@media (max-width:768px){
+    
+    section.title{
+        height: 3vh;
+    }
+    #home{
+     font-size: 3rem;
+   }
+    main h1{
+      font-size: 6rem;
+    }
+    
+    .explain h2{
+    font-size: 2.5rem;
+    }
+    .explain h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1024px){
+    .explain{
+        float: none;
+        margin-right:0px;
+    }
+}
+@media (max-width:414px){
+    #inno_sopt_img{
+        width: 300px;
+    }
+}
+
+/* for iPhone5 */
+@media (max-height:568px) and (max-width:320px){
+  #home{
+     font-size: 2rem;
+   }
+  header{
+    height: 7vh;
+  }
+  main h1{
+      font-size: 4rem;
+    }
+   .explain h2{
+    font-size: 2.5rem;
+    }
+    .explain h3{
+        font-size: 1rem;
+    }
+}
 </style>
