@@ -57,15 +57,15 @@ section.title{
     display: inline-block;
     width : 48vw;
     color: white;
-    margin-right: 7vw;
+    margin-right: 5vw;
 }
 
 .explain h2{
-    font-size: 50px;
+    font-size: 4.5rem;
 }
 .explain h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 main {
@@ -83,12 +83,12 @@ header {
   text-decoration: none;
   font-size: 5rem;
   display: inline;
-  left: 3%;
+  left: 3vw;
   float: left;
 }
 main h1 {
   color: white;
-  font-size: 110px;
+  font-size: 11rem;
   display: inline-block;
   height: 200px;
 }
