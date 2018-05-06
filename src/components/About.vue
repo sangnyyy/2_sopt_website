@@ -2,7 +2,7 @@
   <main>
     <header>
       <img id="background_img" src="../../img/main_image.png" alt="">
-      <router-link to="/">
+      <router-link to="/" id="home">
           <h3>
             S O P T
           </h3>
@@ -10,7 +10,7 @@
     </header>
     <article>
         <section class="title">
-            <h1>About</h1>
+          <h1>About</h1>
         </section>
         <section class="content">
             <div class="img-content">
@@ -57,9 +57,8 @@ export default {};
 <style scoped>
 
 section.title{
-  height: 180px;
+  height: 15vh;
 }
-
 .part{
     position: relative;
     width : 30%;
@@ -72,10 +71,9 @@ section.title{
   top : 0;
   left : 0;
   width: 100%;
-  height : 200%;
+  height : 130vh;
   z-index: -1;
 }
-
 .content{
   text-align: center;
 }
@@ -83,10 +81,9 @@ div.explain-content{
   display: inline-block;
   margin-top : 5%;
   text-align: left;
-  width: 70%;
+  width: 80%;
   height: auto;
 }
-
 p{
   color:white;
   font-size: 130%;
@@ -97,7 +94,6 @@ main {
   top: 0;
   left: 0;
 }
-
 a{
   position: relative;
   color: white;
@@ -111,16 +107,56 @@ main h1 {
   color: white;
   font-size: 110px;
   display: inline-block;
-  height: 200px;
+  
 }
 header {
-    height: 100px;
+    height: 10vh;
 }
-
-
-
 a:hover{
   color: gray;
   
+}
+
+@media (max-width:768px){
+   #home{
+     font-size: 3rem;
+   }
+    main h1{
+      font-size: 6rem;
+      
+    }
+
+}
+
+@media (max-height: 667px){
+  #background_img{
+    height: 230vh;
+  }
+}
+@media (min-height: 668px) and (max-height: 812px){
+  #background_img{
+    height: 200vh;
+  }
+}
+@media (min-height: 1023px){
+  #background_img{
+    height: 130vh;
+  }
+}
+
+/* for iPhone5 */
+@media (max-height:568px) and (max-width:320px){
+  #home{
+     font-size: 2rem;
+   }
+  header{
+    height: 7vh;
+  }
+  main h1{
+      font-size: 5rem;
+    }
+  #background_img{
+    height:280vh;
+  }
 }
 </style>

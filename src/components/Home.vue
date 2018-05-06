@@ -5,7 +5,7 @@
                 <h1>S O P T</h1>
             </transition>
             <transition appear appear-active-class="animated bounceInLeft">
-                <h2>"SHOUT OUR PASSION TOGETHER"</h2>    
+                <h2>SHOUT OUR PASSION TOGETHER</h2>    
             </transition>
                 <router-link to="/about">
                     <transition appear appear-active-class="animated bounceInUp">
@@ -55,6 +55,7 @@ export default {
 </script>
 
 <style scoped>
+
 main {
   height: 100%;
   width: 100%;
@@ -63,13 +64,13 @@ main {
 }
 main div{
     position: relative;
-    top: 15%;
+    top: 20%;
     display: inline-block;
     text-align: center;
 }
 main h1 {
   color: white;
-  font-size: 200px;
+  font-size: 20rem;
   display: inline-block;
   height: 290px;
 
@@ -77,27 +78,63 @@ main h1 {
 }
 main h2 {
   color: white;
-  font-size: 60px;
+  font-size: 6rem;
 }
 main a {
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 4rem;
   margin-right: 3%;
   display: inline;
-  -webkit-transition : font-size 1s;
-  transition: font-size 1s;
+  -webkit-transition : font-size .5s;
+  transition: font-size .5s;
 }
 h3 {
   display: inline-block;
 }
 main a:hover {
   color: gray;
-  font-size: 300%;
-  transition-duration: 0.5s;
+  font-size: 6rem;
 }
 
+@media (min-width:320px) and (max-width:786px){
+    main h1 {
+    color: white;
+    font-size: 11.5rem;
+    display: inline-block;
+    height: 200px;
+    }
+    main h2 {
+        color: white;
+        font-size: 4rem;
+    }
+    main a{
+        font-size: 2rem;
+    }
+    main a:hover {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 320px){
+    main h1 {
+    color: white;
+    font-size: 8rem;
+    display: inline-block;
+    height: 130px;
+    }
+    main h2 {
+        color: white;
+        font-size: 3rem;
+    }
+    main a{
+        font-size: 1.5rem;
+    }
+    main a:hover {
+        font-size: 2rem;
+    }
+}
 
 
 </style>
