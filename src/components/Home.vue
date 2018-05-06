@@ -70,7 +70,7 @@ main div{
 }
 main h1 {
   color: white;
-  font-size: 200px;
+  font-size: 20rem;
   display: inline-block;
   height: 290px;
 
@@ -78,13 +78,13 @@ main h1 {
 }
 main h2 {
   color: white;
-  font-size: 60px;
+  font-size: 6rem;
 }
 main a {
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 4rem;
   margin-right: 3%;
   display: inline;
   -webkit-transition : font-size .5s;
@@ -95,44 +95,44 @@ h3 {
 }
 main a:hover {
   color: gray;
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 @media (min-width:320px) and (max-width:786px){
     main h1 {
     color: white;
-    font-size: 115px;
+    font-size: 11.5rem;
     display: inline-block;
     height: 200px;
     }
     main h2 {
         color: white;
-        font-size: 40px;
+        font-size: 4rem;
     }
     main a{
-        font-size: 20px;
+        font-size: 2rem;
     }
     main a:hover {
-        font-size: 30px;
+        font-size: 3rem;
     }
 }
 
 @media (max-width: 320px){
     main h1 {
     color: white;
-    font-size: 80px;
+    font-size: 8rem;
     display: inline-block;
     height: 130px;
     }
     main h2 {
         color: white;
-        font-size: 30px;
+        font-size: 3rem;
     }
     main a{
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     main a:hover {
-        font-size: 20px;
+        font-size: 2rem;
     }
 }
 
